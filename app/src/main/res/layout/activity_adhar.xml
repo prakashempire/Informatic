@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFF4F"
+    tools:context=".AdharActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        android:background="#131313"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:id="@+id/showAdharId"
+        android:fadingEdgeLength="5dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bungee"
+            android:gravity="center"
+            android:text="SHOW ADHAR NO"
+            android:textColor="@color/colorPrimary"
+            android:textSize="36sp"
+            android:textStyle="bold|italic">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#131313"
+        android:elevation="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/CreateAdharId"
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bungee"
+            android:gravity="center"
+            android:text="CREATE ADHAR NO"
+            android:textColor="@color/colorPrimary"
+            android:textSize="36sp"
+            android:textStyle="bold|italic">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAdhar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#131313"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:text="Back" />
+
+    </LinearLayout>
+
+
+</ScrollView>

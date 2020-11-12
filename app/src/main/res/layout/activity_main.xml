@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#FCFF4F">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Covid-19 Details"
+            android:textSize="20sp"
+            android:id="@+id/btnCovid19trackerLonin"
+            android:textStyle="italic|bold"
+            android:textColor="#fff"
+            android:background="@color/color_red"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="40dp"
+
+            ></Button>
+
+        <TextView
+            android:id="@+id/textView"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/bungee"
+            android:text="HELLO THERE,  WELCOME BACK"
+            android:textColor="#1B1818"
+            android:textSize="36sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:layout_marginLeft="32dp"
+            android:text="Login to Continue!"
+            android:textColor="#322A2A"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:textColorHint="#191515">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etEmailorName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/mail"
+                android:hint="E-mail"
+                android:textColorHint="#252020">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:textColorHint="#130E0E"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/lock"
+                android:hint="Password">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:id="@+id/tvForgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:text="ForgotPassword"
+            android:textColor="#101010"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:background="#131313"
+            android:text="Login"
+            android:textColor="#FDFBFB"
+            android:textSize="17sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tvRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="NewUser? SignUp"
+            android:textColor="#191818"
+            android:textSize="22sp"
+            android:textStyle="bold|italic" />
+
+
+        <TextView
+            android:id="@+id/temporaryEmailandpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="SignUp problem "
+            android:textColor="#191818"
+            android:textSize="22sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FCFF4F"
+    android:layout_height="match_parent"
+    tools:context=".DeveloperInfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:src="@drawable/person">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/developerName"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/person"
+                android:fontFamily="@font/bungee"
+                android:gravity="start"
+                android:text="Name"
+                android:textColor="#131313"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="-40dp"
+                android:text="RUTHRA PRAKASH S"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="-50dp"
+                android:gravity="start"
+                android:text="rpappdeveloper2000@gmail.com"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:textStyle="bold|italic"></TextView>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/mail"
+                android:fontFamily="@font/bungee"
+                android:gravity="start"
+                android:text="Email"
+                android:textColor="#131313"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"></TextView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/bungee"
+            android:text="COMMUNICATION"
+            android:textColor="#131313"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8760408394"
+                android:textSize="22sp"
+                android:layout_marginBottom="-25dp"
+                android:layout_marginLeft="140dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/colorPrimary"
+                ></TextView>
+
+            <ImageView
+                android:id="@+id/developerinfoCall"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="300dp"
+                android:layout_marginBottom="-45dp"
+                android:src="@drawable/call_green_1"></ImageView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/bungee"
+                android:text="CALL"
+                android:layout_marginTop="-10dp"
+                android:textColor="#131313"
+                android:textSize="20sp"
+                android:textStyle="italic|bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:fontFamily="@font/bungee"
+                android:text="INSTAGRAM"
+                android:textColor="#131313"
+                android:textSize="20sp"
+                android:textStyle="italic|bold"></TextView>
+
+            <ImageView
+                android:id="@+id/developerinfoInsta"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="-50dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_baseline_link_24"></ImageView>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/developerinfoHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="#131313"
+            android:text="HOME"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"></Button>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFF4F"
+    tools:context=".AdharCreateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:fontFamily="@font/bungee"
+            android:text="Enter Adhar Details"
+            android:textColor="#131313"
+            android:textSize="30sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etAdharCreateName"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:textColorHint="#131313"
+                android:textColor="#131313"
+                android:drawableLeft="@drawable/account_1"
+                android:hint="Enter Name"></EditText>
+
+            <EditText
+                android:id="@+id/etAdharCreateAdharNo"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:textColorHint="#131313"
+                android:textColor="#131313"
+                android:drawableLeft="@drawable/adharcard_1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:hint="Enter Adhar No"></EditText>
+
+            <EditText
+                android:id="@+id/etAdharCreateAddress"
+                android:layout_width="350dp"
+                android:textColor="#131313"
+                android:textColorHint="#131313"
+                android:drawableLeft="@drawable/location_1"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:hint="Enter Address"></EditText>
+
+            <Button
+                android:id="@+id/btnAdharCreateSaveId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="#131313"
+                android:layout_marginTop="20dp"
+                android:text="Save"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:elevation="10dp"
+                android:padding="10dp"
+                android:textStyle="bold"></Button>
+
+            <Button
+                android:id="@+id/btnAdharCreatecancelId"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="#131313"
+                android:elevation="10dp"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Cancel"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold"></Button>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

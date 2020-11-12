@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.loginactivity">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".TrackCountry"/>
+        <activity android:name=".Covid19Tracker"/>
+        <activity android:name=".TemprorymailandPassword" />
+        <activity android:name=".DeveloperInfo" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".GoogleCreateActivity" />
+        <activity android:name=".GoogleShowActivity" />
+        <activity android:name=".ImeiCreateActivity" />
+        <activity android:name=".ImeiShowActivity" />
+        <activity android:name=".AdharCreateActivity" />
+        <activity android:name=".AdharShowActivity" />
+        <activity android:name=".ImeiActivity" />
+        <activity android:name=".googleActivity" />
+        <activity android:name=".AdharActivity" />
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".PasswordResetActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".WelcomeAnimation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
